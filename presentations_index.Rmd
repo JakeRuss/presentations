@@ -1,0 +1,11 @@
+---
+title: "Presentations"
+output: html_document
+---
+
+The following are links to presentations that I've given
+
+
+1. [Missing Sticks: Property Institutions and Income Dissipation in Indian Country](http://jakeruss.com/presentations/fgcu/MissingSticks_FGCU_2015_02_06.pdf)
+   at Florida Gulf Coast University on February 6th, 2015
+
