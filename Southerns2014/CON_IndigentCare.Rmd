@@ -1,0 +1,60 @@
+---
+title: "Do Certificate-of-Need Laws Increase Indigent Care?"
+author: "Jacob W. Russ and Thomas Stratmann"
+date: "Southern Economic Association, November 2014"
+output: 
+  beamer_presentation:
+    theme: "default"
+    colortheme: "default"
+---
+
+## Introduction
+
+- Certificate-of-need (CON) programs prohibit hospitals, 
+nursing homes, and ambulatory surgical centers from entering 
+new markets or making changes to the existing capacity of 
+medical facilities without first gaining approval from 
+certificate-of-need regulators.
+
+- As of 2011, 36 states and the District of Columbia had 
+a CON program.
+
+
+## Why grant monopoly privileges?
+
+- The original justification for these laws was that CON 
+programs would be able to control health care costs. 
+Competition induces hospitals to over-invest in capacity, 
+and regulators could lower costs by only granting needed 
+investments.  
+
+- Early economic literature on the topic overwhelmingly 
+showed no evidence of lower costs. Econ 101!
+
+- The modern argument is that supply restrictions create
+monopoly profits and that with regulation, regulators can 
+induce hospitals to cross-subsidize health care for the 
+poor. 
+
+## Estimation Strategy
+
+We estimate the following model, 
+
+$$ health care capacity_{st} = \alpha(CON_{st})+ \delta X_{st} + \vartheta _{t} + \varepsilon _{st} $$
+
+$$ Indigent care_{st} = \alpha(CON_{st})+ \delta X_{st} + \vartheta _{t} + \varepsilon _{st} $$
+
+## Data
+Healthcare Cost Report Information System (HCRIS)
+
+Hospital level data that we aggregate to form state 
+level observations for 2007 through 2010.
+
+HCRIS defines uncompensated care as the sum of charity care and bad debt.
+
+American Hospital Association (AHA) sources: Hospital Statistics 2013 and the AHA subsidiary Health Forum’s Medicaid statistics. We glean two indirect measures of indigent care: ratios of Medicaid patient days to total patient days and of Medicaid admissions to total patient discharges
+
+Certificate-of-need program data come from our third source, the American Health Planning Association (AHPA). The AHPA publishes its annual survey of state CON programs in annual national directories. From these directories we assembled the most comprehensive dataset on state CON regulations to date, covering 1992 through 2011.
+
+## Results
+
