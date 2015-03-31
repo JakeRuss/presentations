@@ -41,7 +41,7 @@ mean(sample(x = numbers, size = 5, replace = FALSE), na.rm = TRUE)
 ```
 
 ```
-[1] 45.2
+[1] 42
 ```
 
 ```r
@@ -49,7 +49,7 @@ numbers %>% sample(size = 5, replace = FALSE) %>% mean(na.rm = TRUE)
 ```
 
 ```
-[1] 46
+[1] 66.2
 ```
 
 Plan for today: two scraping demos with code
