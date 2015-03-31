@@ -2,6 +2,8 @@ Introduction to Webscraping with R and rvest
 ========================================================
 author: Jake Russ
 date: April 1, 2015
+font-family: 'Times'
+css: slide_template.css
 
 Georgetown Political Science
 
@@ -12,9 +14,9 @@ What is this strange symbol and why is it useful?
 
 The package `magrittr` adds a pipe operator to R.
 
-- `x %>% f`  is equivalent to  `f(x)`
-- `x %>% f(y)`  is equivalent to  `f(x, y)`
-- `x %>% f %>% g %>% h`  is equivalent to  `h(g(f(x)))`
+- `x %>% f` **is equivalent to** `f(x)`
+- `x %>% f(y)`  **is equivalent to**  `f(x, y)`
+- `x %>% f %>% g %>% h`  **is equivalent to**  `h(g(f(x)))`
 
 More pipe fun
 ========================================================
@@ -50,7 +52,9 @@ We'll use `rvest` from Hadley Wickham [Github link](https://github.com/hadley/rv
 
 - Inspired by Python's `BeautifulSoup`
 
-Plug for a book (not mine!)
+All of the demo code is [posted on Github](https://github.com/JakeRuss/presentations/tree/master/WebScraping)
+
+Best advice: get this book!
 ========================================================
 
 [Automated Data Collection with R](http://www.r-datacollection.com/)

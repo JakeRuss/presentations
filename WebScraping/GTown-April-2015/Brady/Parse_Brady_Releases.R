@@ -28,7 +28,6 @@ html_list <- list.files(path    = paste0(dir, "/Brady/html/"),
 
 for (i in html_list){
   
-  i <- html_list[7]
   # Remove ".html" from the file name
   filename <- str_replace(string = i, pattern = ".html", replacement = "")
 
